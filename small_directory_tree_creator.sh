@@ -1,4 +1,4 @@
-#|/bin/bash
+#/bin/bash
 
 clear
 echo "Alejandro Martos Rey"
@@ -21,8 +21,8 @@ echo -e "Primer Parámetro:\t $1"
 echo -e "Segundo Parámetro:\t $2"
 echo -e "Todos los Parámetros:\t $*"
 echo " "
-#Tercera parte.
 
+#Tercera parte.
 echo -n "Introduce el nombre de un archivo: "
 read nombre_de_archivo
 

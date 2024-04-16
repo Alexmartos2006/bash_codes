@@ -11,6 +11,7 @@ echo " "
 
 echo -n "Introduce el nombre de un archivo: "
 read nombre_de_archivo
+echo " "
 
 #Creación del primer directorio.
 echo "Creando el directorio: $1"
@@ -31,7 +32,6 @@ echo " "
 #Creación del archivo.
 echo "Creando el archivo: $nombre_de_archivo"
 touch $nombre_de_archivo
-echo " "
 
 cd ../../
 echo "Se ha creado la siguiente estructura:"

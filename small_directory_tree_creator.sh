@@ -31,6 +31,7 @@ echo " "
 #Creación del archivo.
 echo "Creando el archivo: $nombre_de_archivo"
 touch $nombre_de_archivo
+echo " "
 
 cd ../../
 echo "Se ha creado la siguiente estructura:"

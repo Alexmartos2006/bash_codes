@@ -21,11 +21,14 @@ echo "Directorio Actual: $PWD"
 echo " "
 
 #Creación del segundo directorio.
+echo "Creando el directorio: $2"
 mkdir $2
 echo "Resultado Operación: $?"
 cd $2
 echo "Directorio Actual: $PWD"
+echo " "
 
+#Creación del archivo.
 echo "Creando el archivo: $nombre_de_archivo"
 touch $nombre_de_archivo
 

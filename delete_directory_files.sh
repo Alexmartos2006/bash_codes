@@ -23,7 +23,7 @@ then
 	echo -e "El recurso $1 no existe en el directorio actual $PWD.\n"
 	exit 1
 fi
-	# Si el recurso existe.
+	# Si el recurso existe---->
 
 	# Comprobar si es un directorio.
 	if [ -d $1 ]

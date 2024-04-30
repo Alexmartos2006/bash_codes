@@ -21,7 +21,7 @@ seleccion_usuario() {
 	echo "3. Tijera"
 	echo -n "Indica un número: "
 	read -n1 -r seleccion
-	echo " "
+	echo 
 	
 		case $seleccion in
 			[1-3])
